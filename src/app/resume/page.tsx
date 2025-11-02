@@ -7,7 +7,7 @@ import ImageLightbox from "../../components/ImageLightbox";
 // The PDF file lives in /public and is served statically by Next.js.
 // Spaces in the filename are URL‑encoded to ensure correct rendering.
 
-const CV_URL = "/Chen%20Sopheakdey%20Resume_241007_130626.pdf";
+const CV_URL = "/Chen%20Sopheakdey%20Resume.pdf";
 
 export default function ResumePage() {
   return (

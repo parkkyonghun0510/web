@@ -4,6 +4,7 @@ import Projects from "../components/Projects";
 import LiveCodeSection from "../components/LiveCodeSection";
 import Contact from "../components/Contact";
 import AlbumsMemories from "../components/AlbumsMemories";
+import ExperienceHighlights from "../components/ExperienceHighlights";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       </header>
       <main className="max-w-6xl mx-auto px-6">
         <Hero />
+        <ExperienceHighlights />
         {/* Dynamic photo albums with memories mode */}
         <AlbumsMemories />
         <Skills />
